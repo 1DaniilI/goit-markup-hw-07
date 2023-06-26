@@ -166,8 +166,7 @@
   .header-email {
 	margin-right: 40px;
   }
-  .header-item-tel {
-  }
+  
   
   .header-navigation {
 	display: flex;
@@ -855,6 +854,11 @@
 	/* margin-top: 16px; */
   }
   
+.filter{
+	padding-top: 96px;
+    padding-bottom: 120px;
+}
+
   .subscribe-btn {
 	min-width: 165px;
 	height: 40px;
@@ -879,7 +883,7 @@
 
   /* Portfolio */
 
-  .gallery-btn {
+  .button-clasik {
 	font-family: "Roboto", sans-serif;
 	color: #4d5ae5;
   }
@@ -887,7 +891,7 @@
 	color: var(--first-title-color);
   }
   
-  .gellery {
+  .section-hero {
 	padding-top: 96px;
 	padding-bottom: 120px;
   }
@@ -899,9 +903,7 @@
 	margin-bottom: 72px;
   }
   
-  .gallery-item {
-  }
-  .gallery-btn {
+  .button-clasik {
 	color: #4d5ae5;
 	background-color: #f4f4fd;
 	padding: 12px 24px 12px;
@@ -913,12 +915,12 @@
 	  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .gallery-btn:hover {
+  .button-clasik:hover {
 	border: 1px solid transparent;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
 	  0px 2px 2px rgba(0, 0, 0, 0.12);
   }
-  .gallery-btn:focus {
+  .button-clasik:focus {
 	background-color: #404bbf;
 	color: #ffffff;
 	border: 1px solid transparent;
@@ -943,21 +945,21 @@
   .gallery-link-link:focus .gallery-foto-cover {
 	transform: translateY(0%);
   }
-  .gallery-foto-list {
+  .benefits-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 48px 24px;
   }
-  .gallery-foto-item {
+  .benefits {
 	width: calc((100% - 48px) / 3);
   }
-  .gallery-foto-item:hover .gallery-foto-cover {
+  .benefits:hover .gallery-foto-cover {
 	transform: translateY(0);
   }
-  .gallery-foto-item:focus .gallery-foto-cover {
+  .benefits:focus .gallery-foto-cover {
 	transform: translateY(0);
   }
-  .gallery-item-title {
+  .servises-name {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
@@ -970,7 +972,7 @@
 	display: flex;
 	flex-wrap: wrap;
   }
-  .gallery-title-text {
+  .portfolio-desk {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
@@ -981,13 +983,14 @@
 	display: flex;
 	flex-wrap: wrap;
   }
-  .gallery-foto-container {
+  .image-name-name {
 	padding: 32px 16px;
 	border: 1px solid #e7e9fc;
 	border-top: none;
+
   }
   
-  .gallery-cover-wrap {
+  .gallery-cover {
 	position: relative;
 	overflow: hidden;
   }
