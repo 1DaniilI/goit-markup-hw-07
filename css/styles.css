@@ -1532,6 +1532,13 @@
 	  gap: 24px;
 	}
   
+.address-link{
+	font-size: 16px;
+font-family: Roboto;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
 	.feature-item {
 	  width: calc((100% - 72px) / 4);
 	}
