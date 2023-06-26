@@ -568,7 +568,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	gap: 72px;
+	gap: 64px 24px;
   }
   .crew-item {
 	background-color: #ffffff;
@@ -686,6 +686,9 @@
 	fill: currentColor;
   }
   
+
+
+
   /*---------footer----------*/
   
   .footer {
@@ -731,7 +734,7 @@
   
   .footer-item-text {
 	color: #f4f4fd;
-  
+	line-height: 1.5;
 	max-width: 264px;
   }
   
